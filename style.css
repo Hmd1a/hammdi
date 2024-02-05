@@ -247,3 +247,100 @@ main.content h3{
         
     }
 }
+/* Original CSS rules above this line */
+
+@media only screen and (max-width: 414px) {
+    header {
+        padding: 10px 15px;
+    }
+
+    .logo {
+        font-size: 1.2em;
+    }
+
+    .navigation a {
+        padding-left: 15px;
+    }
+
+    section {
+        padding: 80px 15px;
+    }
+
+    .main {
+        padding: 60px 10px;
+    }
+
+    .main h2 {
+        font-size: 1.2em;
+    }
+
+    .main h3 {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    .main-btn {
+        padding: 0.7em 1.3em;
+        margin-bottom: 30px;
+    }
+
+    .social-icons a {
+        font-size: 1.2em;
+        padding-right: 5px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: calc(100% - 30px);
+        margin: 15px;
+    }
+
+    .projects-card {
+        width: calc(100% - 40px);
+        margin: 20px;
+    }
+
+    .project-image img {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 1.5em;
+    }
+
+    .footer-title {
+        font-size: 1.2em;
+    }
+
+    .footer .social-icons a {
+        font-size: 1.2em;
+        padding: 0 8px 0 0;
+    }
+}
+
+/* Original CSS rules below this line */
+
+
+/* Original CSS rules above this line */
+
+@media only screen and (max-width: 414px) {
+    /* Other media query rules */
+
+    .main {
+        padding: 60px 10px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Other media query rules */
+}
+
+/* Original CSS rules below this line */
