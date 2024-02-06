@@ -42,7 +42,7 @@ padding: 100px 200px;
     min-height:100vh; 
     display: flex;
     align-items: center;
-    background: url(/website/imgs/1.jpg) no-repeat;  
+    background: url(imgs/1.jpg) no-repeat;  
     background-size: cover;
     background-position: center;
     
