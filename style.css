@@ -319,10 +319,13 @@ main.content h3{
     .footer-title {
         font-size: 1.2em;
     }
+    /* للهواتف النقالة بعرض أقل من أو يساوي 375 بكسل (عرض شاشة iPhone 7) */
 @media only screen and (max-width: 375px) {
   .main {
-    background-size: contain; /* يضمن عرض الصورة بالكامل دون قصها */
-    background-repeat: no-repeat; /* يمنع تكرار الصورة */
+    background-image: url('اسم_الصورة.jpg');
+    background-size: cover; /* لجعل الصورة تمتد لتغطي كل المساحة */
+    background-position: center; /* لوضع الصورة في وسط العنصر */
+    height: 100vh; /* لجعل العنصر يمتلك ارتفاعًا يملأ كل الشاشة */
   }
 }
     .footer .social-icons a {
