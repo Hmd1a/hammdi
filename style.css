@@ -319,7 +319,12 @@ main.content h3{
     .footer-title {
         font-size: 1.2em;
     }
-
+@media only screen and (max-width: 375px) {
+  .main {
+    background-size: contain; /* يضمن عرض الصورة بالكامل دون قصها */
+    background-repeat: no-repeat; /* يمنع تكرار الصورة */
+  }
+}
     .footer .social-icons a {
         font-size: 1.2em;
         padding: 0 8px 0 0;
